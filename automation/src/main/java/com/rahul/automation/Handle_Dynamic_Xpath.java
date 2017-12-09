@@ -30,6 +30,7 @@ public class Handle_Dynamic_Xpath {
 			
 			
 			System.out.println("The Total  no of Value present in node  is......... :"+Value2);
+			// clicking on proper value from store value
 			if(Value2.equalsIgnoreCase("oracle octopus"))
 			{
 				Value1.click();
