@@ -10,13 +10,14 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.annotations.Test;
+
 
 
 public class ListOfElements_DropDown 
 {
 	
-public static void main(String[] arg)
+public static void main(String[] args)
+	
 {
 	WebDriver driver =new FirefoxDriver();
 	driver.get("https://www.facebook.com");

@@ -9,6 +9,7 @@ public class Launch_Application_chrome_Driver {
 	{
 	System.setProperty("webDriver.chrome.driver","E:\\Start journey\\GekoDriver\\chromedriver.exe");	
        WebDriver driver =new ChromeDriver();
+       driver.get("https://www.facebook.com");
 	}
 
 }
